@@ -1,0 +1,34 @@
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+.menu{
+  background: #999;
+}
+
+.menu a{
+  display: inline-block;
+}
+
+.menu a:hover {
+  color: purple;
+}
+
+.name{
+  padding-top:20px;
+  text-align: center;
+  font-size: 18px;
+
+}
+.menu ul{
+  display: flex;
+  padding-top:20px;
+  font-size: 24px;
+  justify-content: space-between;
+}
+
+.menu ul li {
+  margin-left: 40px;
+  list-style-type: none;
+}
